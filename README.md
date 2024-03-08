@@ -40,3 +40,9 @@ The query response from the website is a JSON response with the following five f
 * Solution completeness.
 * Performance.
 * Architecture (design, separation of concerns, etc.).
+
+
+# REST API: Interview 1 - Solution
+
+Dopo aver analizzato i risultati delle chiamate API, ho deciso di realizzare un componente React.js con l'obiettivo di mostrare gli articoli filtrati per autore e per pagine. L'idea principale è stata quella di ridurre al minimo le chiamate API. Per questo motivo, ho deciso di chiamare l'API la prima volta per mostrare i risultati della prima pagina e poi ogni volta che si cambia pagina. Inoltre, ogni volta che viene effettuata una chiamata, i dati della pagina vengono salvati nel localStorage per evitare ulteriori chiamate rispetto al numero totale delle pagine. È inoltre possibile filtrare gli autori attraverso un campo di input. Ho voluto integrare Tailwind CSS nel progetto per poter utilizzare alcune classi di base e stilare il componente. Il componente potrebbe essere implementato con ulteriori controlli e messaggi di errore.
+
